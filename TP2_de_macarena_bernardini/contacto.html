@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - Frida Kahlo</title>
+  <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+  
+  <header class="header">
+    <div class="contenedor">
+      <h1 class="logo">Frida Kahlo</h1>
+      <nav class="menu">
+        <a href="obra.html">Pintura</a>
+        <a href="biografia.html">Biografía</a>
+        <a href="curiosidades.html">Curiosidades</a>
+        <a href="museos.html">Museos</a>
+        <a href="tecnicas.html">Técnicas</a>
+        <a href="index.html">Inicio</a>
+        <a href="familia.html">Familia</a>
+        <a href="creadora.html">Creadora</a>
+      </nav>
+    </div>
+  </header>
+  
+ <section class="portada">
+    <div class="portada-texto">
+    <h1>Biografía</h1>
+    <p>Descubrí la historia personal y artística de Frida Kahlo: su vida, su dolor y su inspiración.</p>
+  </div>
+</section>  
+
+   <main class="contenedor">
+      <div>
+        <h2 class="animate__animated animate__fadeInLeft animate__slow">¿Querés saber más sobre Frida Kahlo?</h2>
+        <p>Podés dejarnos un mensaje o consulta. Nos encantará saber qué te inspira de Frida, su arte o su vida. 
+        Completá el siguiente formulario y te responderemos pronto.</p>
+      </div>
+
+      <form id="formContacto" class="contacto-form" novalidate>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribí tu mensaje..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Proyecto Frida Kahlo - Creado por Macarena Bernardini</p>
+  </footer>
+  <script defer src="js/contacto.js"></script>
+</body>
+</html>
