@@ -1,3 +1,11 @@
+document.getElementById("menu-btn").addEventListener("click", function() {
+  const menu = document.getElementById("menu");
+  if (menu.style.display === "flex") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "flex";
+  }
+});
 // --- MARIPOSAS EMOJI INTERACTIVAS ---
 // Aparecen al tocar o hacer clic, representando la libertad y creatividad de Frida
 

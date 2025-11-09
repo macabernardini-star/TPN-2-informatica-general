@@ -1,3 +1,12 @@
+document.getElementById("menu-btn").addEventListener("click", function() {
+  const menu = document.getElementById("menu");
+  if (menu.style.display === "flex") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "flex";
+  }
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const cantidadFlores = 30; // 🌼 más flores
   const flores = ["🌸", "🌺", "🌼", "🌻", "💮"];
